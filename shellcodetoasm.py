@@ -2,7 +2,7 @@ from capstone import *
 import time, sys, os
 
 # Change here
-shellcode = '\x31\xf6'
+shellcode = sys.argv[1]
 
 def loading():
     print "Loading..."
